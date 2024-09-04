@@ -5,7 +5,7 @@ This uses the Search Bar they added back in mid 2023 to help automatically equip
 
 ## Warning
 BHVR has not given an opinion on this specifically, but this does not even read the game's files or screen. Simply moves the mouse and types the perk name for you, so if anything it'd be considered a "macro"
-[https://forums.bhvr.com/dead-by-daylight/discussion/82667/will-struggle-macros-get-you-banned](BHVR's opinion on macros) is **"at your own risk"** which is the same statement they give for [Custom Icons, Portraits etc](https://steamcommunity.com/app/381210/discussions/0/5291222404438553872/#c5291222404440824189). For BHVR, "at your own risk" means they will not ban any player themselves, but don't go to them if EAC does. 
+[BHVR's Opinion on Macros]([BHVR's opinion on macros](https://forums.bhvr.com/dead-by-daylight/discussion/82667/will-struggle-macros-get-you-banned)) is **"at your own risk"** which is the same statement they give for [Custom Icons, Portraits etc](https://steamcommunity.com/app/381210/discussions/0/5291222404438553872/#c5291222404440824189). For BHVR, "at your own risk" means they will not ban any player themselves, but don't go to them if EAC does. 
 
 ## How to Download
 * Download the latest from [Release](https://github.com/JackieRoxs/DBD-Perk-Randomizer/releases/tag/Release)
