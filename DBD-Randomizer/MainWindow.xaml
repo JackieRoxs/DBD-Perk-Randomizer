@@ -1,0 +1,32 @@
+﻿<Window x:Class="DBD_Randomizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DBD_Randomizer"
+        mc:Ignorable="d"
+        Title="DBD Perk Randomizer" Height="491" Width="865" ResizeMode="NoResize" Background="#FF0E0813">
+    <Grid Background="#FF0E0813">
+        <!-- Define the grid with two columns -->
+        <Grid.ColumnDefinitions>
+            <!-- Left column for the menu, width is set to Auto or a specific size -->
+            <ColumnDefinition Width="200"/>
+            <!-- Right column for the content area, takes up remaining space -->
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Menu on the left -->
+        <StackPanel Grid.Column="0" Background="#FF120C17">
+            <Label x:Name="Name" Foreground="#FFD6D6D6" Margin="10,10,10,0" Content="Future Logo" FontSize="20" FontFamily="Roboto"></Label>
+            <Button x:Name="randomizerButton" MinHeight="40px" FontSize="20" Content="Randomizer" Margin="10,40,10,0" Click="RandomizerButton_Click" Background="#FF171717" Foreground="White" BorderBrush="#FF77208C"/>
+            <Button x:Name="CalibrateButton" MinHeight="40px" FontSize="20" Content="Calibrate" Margin="10,10,10,0" Click="CalibrateButton_Click" Foreground="White" Background="#FF171717" BorderBrush="#FF77208C"/>
+            <Button x:Name="UpdatePerkButton" MinHeight="40px" FontSize="20" Content="Update Perk List" Margin="10,10,10,0" Click="UpdateButton_Click" Foreground="White" Background="#FF171717" BorderBrush="#FF77208C"/>
+            <Button x:Name="SettingsButton" MinHeight="40px" FontSize="20" Content="Settings" Margin="10,10,10,0" Click="SettingsButton_Click" Foreground="White" Background="#FF171717" BorderBrush="#FF77208C"/>
+            <Button x:Name="Discord_Button" Content="Discord" MinHeight="40px" FontSize="20" Margin="10,80,10,0" Click="DiscordButton_Click" Foreground="White" Background="#FF171717" BorderBrush="#FF77208C"/>
+            <Label x:Name="Version" Foreground="#FF9772A0" Margin="10,10,10,0" Content="Version 1.00" FontSize="15" FontFamily="Microsoft Sans Serif" HorizontalAlignment="Right"></Label>
+        </StackPanel>
+
+        <!-- Content area on the right -->
+        <Frame Grid.Column="1" x:Name="ContentFrame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" Background="#FF0E0813" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
