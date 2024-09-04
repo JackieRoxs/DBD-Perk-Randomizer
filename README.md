@@ -5,7 +5,7 @@ This uses the Search Bar they added back in mid 2023 to help automatically equip
 
 
 ## How to Download
-* Download the latest from [Release]("https://github.com/JackieRoxs/DBD-Perk-Randomizer/releases/tag/Release")
+* Download the latest from [Release](https://github.com/JackieRoxs/DBD-Perk-Randomizer/releases/tag/Release)
 * Extract the Zip to Location of your choice
 * Run **DBD-Randomizer.exe**
 
